@@ -5,7 +5,8 @@
 **In this case I'm using ubuntu-20.04**
 
 1. Download the .zip file of terraform
-    
+
+    **For newer version**\
     Head to this page https://www.terraform.io/downloads.html and download the zip then follow from step-2
     ```bash
     cd ~/Downloads
