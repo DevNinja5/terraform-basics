@@ -1,4 +1,4 @@
-# Terraform File Basics
+# Terraform Basics
 
 ## Installation - Terraform
 
@@ -26,15 +26,25 @@
     ```bash
     terraform version
     ```
+---
+
+
+# Terraform File
 
 ## 1. Create a directory for practice
 
 ```bash
 mkdir -p ~/terraform-practice/local
 cd ~/terraform-practice/local
+```
+
+## 2. Open a file in Vim editor or any editor or any IDE 
+
+```bash
 vim local.tf
 ```
-## 2. Copy the below text and paste it in local.tf file
+
+## 3. Copy the below text and paste it in local.tf file
 ```hcl
 resource "local_file" "demo" {
   filename = "./demo.txt"
