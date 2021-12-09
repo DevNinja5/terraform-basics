@@ -35,7 +35,7 @@
 
 # Terraform File
 
-We will now create a resource from terraform file.
+We will now create a resource from terraform file. In first we will create a simple local file in our system.
 
 ## 1. Create a directory for practice
 
