@@ -53,7 +53,7 @@ resource "local_file" "demo" {
 ```
 **Explanation:**
 1. First line is block because it has curly braces`{ ... }`
-2. `resource` is Type of Block/block Name
+2. `resource` is Type of Block/Block Name
 3. `local_file` is Resource Type. It's fixed value and depends upn provider where we want to create resource.
 
     This provides two bits of information local & file
