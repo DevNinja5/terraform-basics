@@ -1,5 +1,18 @@
 # Terraform File Basics
 
+## Prerequisites
+
+### Installing terraform on your local computer 
+
+> In this case I'm using ubuntu-20.04
+
+1. Download the .zip file of terraform
+    ```
+    cd ~/Downloads
+    wget https://releases.hashicorp.com/terraform/1.1.0/terraform_1.1.0_linux_amd64.zip
+    ```
+2. 
+
 ## 1. Create a directory for practice
 
 ```bash
