@@ -1,10 +1,8 @@
 # Terraform File Basics
 
-## Prerequisites
+## Installation - Terraform
 
-### Installing terraform on your local computer 
-
-> In this case I'm using ubuntu-20.04
+**In this case I'm using ubuntu-20.04**
 
 1. Download the .zip file of terraform
     ```bash
