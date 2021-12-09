@@ -82,4 +82,4 @@ terraform plan
 ```bash
 terraform apply
 ```
-type `yes` to confirm.
+Type `yes` to confirm.
