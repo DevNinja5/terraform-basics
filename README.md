@@ -63,7 +63,7 @@ resource "local_file" "demo" {
 4. `demo` is resources name to identify the resource. Can be named anything.
 5. Arguements: `filename` & `content` are arguements for resource which are written in K-V format. These are specific to the type of resource that we are creating that is `local_file` in this case.
     * `filename`: In this we assign name of file along with path. 
-    * `content`: It will add conent to above file we created that is `demo.txt`
+    * `content`: It will add content in above file we created that is `demo.txt`
 
 ## 4. Initiallize terraform
 
