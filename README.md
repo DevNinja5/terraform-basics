@@ -61,7 +61,7 @@ resource "local_file" "demo" {
     * `local` is provider.
     * `file` is type of resource.
 4. `demo` is resources name to identify the resource. Can be named anything.
-5. Arguements `filename` & `content` for resource which we are written in K-V format. These are specific to the type of resource that we are creating.
+5. Arguements: `filename` & `content` are arguements for resource which are written in K-V format. These are specific to the type of resource that we are creating.
     * `filename`: In this we assign name of file along with path. 
     * `content`: It will add conent to above file we created that is `demo.txt`
 
