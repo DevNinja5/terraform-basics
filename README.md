@@ -7,11 +7,27 @@
 > In this case I'm using ubuntu-20.04
 
 1. Download the .zip file of terraform
-    ```
-    cd ~/Downloads
+    ```bash
+    cd ~/Desktop
     wget https://releases.hashicorp.com/terraform/1.1.0/terraform_1.1.0_linux_amd64.zip
     ```
-2. 
+2. Unzip the downloaded zip file
+    ```bash
+    unzip $(ls | grep terraform*.zip| head -1)
+    ```
+3. Move the binary into /bin dir
+    ```bash
+    sudo mv terraform /usr/local/bin
+    ```
+4. Install Terraform Auto-Completion
+    ```bash
+    terraform -install-autocomplete
+    source ~/.bashrc
+    ```
+5. Check terraform is successfully installed.
+    ```bash
+    terraform version
+    ```
 
 ## 1. Create a directory for practice
 
