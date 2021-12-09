@@ -35,6 +35,8 @@
 
 # Terraform File
 
+We will now create a resource from terraform file.
+
 ## 1. Create a directory for practice
 
 ```bash
