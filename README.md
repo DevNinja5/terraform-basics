@@ -7,7 +7,7 @@
 1. Download the .zip file of terraform
 
     **For newer version**\
-    Head to this page https://www.terraform.io/downloads.html and download the zip then follow from step-2
+    Head to this page https://www.terraform.io/downloads.html and download the zip then follow from **Step-2**
     ```bash
     cd ~/Downloads
     wget https://releases.hashicorp.com/terraform/1.1.0/terraform_1.1.0_linux_amd64.zip
