@@ -10,7 +10,7 @@
     Head to this page https://www.terraform.io/downloads.html and download the zip then follow from **Step-2**
     ```bash
     cd ~/Downloads
-    wget https://releases.hashicorp.com/terraform/1.1.0/terraform_1.1.0_linux_amd64.zip
+    wget https://releases.hashicorp.com/terraform/1.1.0/terraform_1.1.0_linux_amd64.zip -O terraform.zip
     ```
 2. Unzip the downloaded zip file
     ```bash
@@ -60,7 +60,7 @@ resource "local_file" "demo" {
 **Explanation:**
 1. First line is block because it has curly braces`{ ... }`
 2. `resource` is Type of Block/Block Name
-3. `local_file` is Resource Type. It's fixed value and depends upn provider where we want to create resource.
+3. `local_file` is Resource Type. It's fixed value and depends upon provider where we want to create resource.
 
     This provides two bits of information local & file
 
